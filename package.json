@@ -19,7 +19,9 @@
     "@angular/platform-browser": "~11.2.14",
     "@angular/platform-browser-dynamic": "~11.2.14",
     "@angular/router": "~11.2.14",
+    "@stomp/stompjs": "^5.4.4",
     "rxjs": "~6.6.0",
+    "sockjs-client": "^1.5.2",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
   },
@@ -29,6 +31,7 @@
     "@angular/compiler-cli": "~11.2.14",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
+    "@types/sockjs-client": "^1.5.1",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
