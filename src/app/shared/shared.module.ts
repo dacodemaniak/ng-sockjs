@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { MomentModule } from 'ngx-moment';
 
 
 
@@ -7,6 +9,10 @@ import { CommonModule } from '@angular/common';
   declarations: [],
   imports: [
     CommonModule
+  ],
+  exports: [
+    FormsModule,
+    MomentModule
   ]
 })
 export class SharedModule { }

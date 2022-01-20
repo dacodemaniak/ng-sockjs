@@ -20,6 +20,8 @@
     "@angular/platform-browser-dynamic": "~11.2.14",
     "@angular/router": "~11.2.14",
     "@stomp/stompjs": "^5.4.4",
+    "moment": "^2.29.1",
+    "ngx-moment": "^5.0.0",
     "rxjs": "~6.6.0",
     "sockjs-client": "^1.5.2",
     "tslib": "^2.0.0",

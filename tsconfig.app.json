@@ -4,6 +4,7 @@
   "compilerOptions": {
     "outDir": "./out-tsc/app",
     "types": [],
+    "allowSyntheticDefaultImports": true,
     "paths": {
       "@environments/*": ["./src/environments/*"],
       "@services/*": ["./src/app/core/services/*"]
